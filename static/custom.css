@@ -1,0 +1,73 @@
+/* Make anchor jumps land cleanly under sticky headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  scroll-margin-top: 84px;
+}
+
+/* Reduce accidental text selection while interacting with Contents */
+.toc a,
+.table-of-contents a,
+#table-of-contents a,
+[aria-label="Contents"] a {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Mobile-first spacing and readability improvements for Retype pages */
+@media (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  pre {
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+
+  /* Hide side Contents panel on small screens to avoid clunky scrolling */
+  .toc,
+  .table-of-contents,
+  #table-of-contents,
+  [aria-label="Contents"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,32 @@
+input: .
+output: .retype
+start:
+  pro: true
+scheme:
+  mode: dark
+edit: false
+editor:
+  enabled: false
+branding:
+  title: Altra Experiences Support
+  label: Support
+  logo: /static/assets/altra_logo.svg
+  logoDark: /static/assets/altra_logo.svg
+links:
+  - text: Discord Server
+    link: https://discord.gg/altra
+    icon: /static/assets/icons/discord.svg
+nav:
+  icons:
+    mode: all
+toc:
+  label: Contents
+footer:
+  copyright: "© 2026 Altra Experiences. Built by OneVend."
+  links:
+    - text: Discord
+      link: https://discord.gg/altra
+    - text: Terms Of Use
+      link: /terms/
+outbound:
+  icon: ""
