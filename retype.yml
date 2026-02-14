@@ -1,7 +1,7 @@
 input: .
 output: .retype
 start:
-  pro: true
+  pro: false
 scheme:
   mode: dark
 edit: false
